@@ -2,10 +2,10 @@
 
 There are 4 Java Spring project for System. 
 
-Eureka Server provides server \\
-Router Provides Load Balancing\\
-Server serves the info by REST\\
-Client sends query and get info .json file\\
+Eureka Server provides server \n
+Router Provides Load Balancing\n
+Server serves the info by REST\n
+Client sends query and get info .json file\n
 
-There can be several servers running in the system.\\
+There can be several servers running in the system.\n
 application.properties files in projects arranges and provides connection between eureka server, router and servers.
