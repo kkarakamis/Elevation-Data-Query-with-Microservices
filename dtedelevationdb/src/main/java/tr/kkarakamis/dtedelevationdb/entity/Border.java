@@ -1,4 +1,4 @@
-package tr.kkarakamis.elevationservice.entitiy;
+package tr.kkarakamis.dtedelevationdb.entity;
 
 import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "elev_border", schema = "Elevation")
+@Table(name = "elev_border", schema = "Elevation")     //This table holds every grid and their borders and id's for reaching
 public class Border {
     @EmbeddedId
     IdBorder idCornerPoint;
@@ -20,7 +20,6 @@ public class Border {
     @Column
     int total_lat_line;
 
-
     public Border(){};
 
     public Border(IdBorder idCornerPoint, int idGrid, int total_long_line , int total_lat_line) {
@@ -30,19 +29,4 @@ public class Border {
         this.total_long_line = total_long_line;
     }
 
-    public int getIdGrid() {
-        return idGrid;
-    }
-
-    public int getTotal_lat_line() {
-        return total_lat_line;
-    }
-
-    public int getTotal_long_line() {
-        return total_long_line;
-    }
-
-    public IdBorder getIdCornerPoint() {
-        return idCornerPoint;
-    }
 }

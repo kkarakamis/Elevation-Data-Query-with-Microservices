@@ -6,7 +6,7 @@ package tr.kkarakamis.elevationservice.entitiy;
 import javax.persistence.*;
 
 @Entity
-@Table(name= "htky_grid", schema = "Elevation")
+@Table(name= "grid", schema = "Elevation")
 public class Grid {
     @EmbeddedId
     IdGrid id;
