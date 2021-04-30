@@ -1,6 +1,6 @@
 # Elevation-Data-Query-with-Microservices
 
-There are 4 Java Spring project for System. 
+There are 5 Java Spring project for System;
 
 dtedelevationdb reads, parses and write informations to database
 
@@ -12,7 +12,7 @@ Server serves the info by REST
 
 Client sends query and get info .json file
 
-
+-
 
 There can be several servers running in the system.
 
