@@ -2,10 +2,17 @@
 
 There are 4 Java Spring project for System. 
 
-Eureka Server provides server \n
-Router Provides Load Balancing\n
-Server serves the info by REST\n
-Client sends query and get info .json file\n
+dtedelevationdb reads, parses and write informations to database
 
-There can be several servers running in the system.\n
+Eureka Server provides server, reads from DB and responses
+
+Router Provides Load Balancing
+
+Server serves the info by REST
+
+Client sends query and get info .json file
+
+
+There can be several servers running in the system.
+
 application.properties files in projects arranges and provides connection between eureka server, router and servers.
